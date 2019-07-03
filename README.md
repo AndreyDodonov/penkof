@@ -5,3 +5,5 @@ Workshop [glo-academy](https://vk.com/glo_academy)
   - CSS (SCSS)
   - Git
   - avocode
+
+  Work with .xd

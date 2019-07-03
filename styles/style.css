@@ -1,39 +1,118 @@
-body  {
+body {
     margin: 0;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    color: #272727;
 }
+
+/* HEADER SECTION */
+
 .header {
-     background-color: #f4f4f4;
-     padding-top: 14px;
-     padding-bottom: 14px;
+    background-color: #f4f4f4;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
+
 .container {
     max-width: 1107px;
     margin: auto;
 }
-.header-wrap { 
+
+.header-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav{
+
+.nav {
     flex-basis: 80%;
 }
-.logo{
+
+.logo {
     font-size: 16px;
     font-weight: 700;
     color: #95989a;
 }
+
 .nav__link {
     font-size: 12px;
     color: #95989a;
     text-decoration: none;
     margin-right: 22px;
 }
+
 .login {
     font-size: 12px;
     color: #95989a;
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/* TABS SECTION */
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tabs-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.tabs-logo {
+    color: #95989a;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.tabs-menu__item {
+    margin-left: 15px;
+    font-size: 16px;
+    position: relative;
+
+}
+
+/* .tabs-menu__item:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #fcde29;
+} */
+
+/* TABS CONTENT */
+.tabs-content {
+    background: #f2f4ff url('/img/tabs-content.png') no-repeat bottom right 135px;     
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 43px;
+}
+
+.tabs-content__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.tabs-content__text {
+    font-size: 18px;
+    max-width: 320px;
+    margin-bottom: 90px;
+}
+
+.button {
+    border-radius: 6px;
+    background-color: #fcde29;
+    padding: 16px 33px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    
 }
