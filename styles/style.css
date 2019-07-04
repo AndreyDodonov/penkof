@@ -94,7 +94,7 @@ body {
 
 /* TABS CONTENT */
 .tabs-content {
-    background: #f2f4ff url('/img/tabs-content.png') no-repeat bottom right 135px;     
+    background: #f2f4ff url('/img/tabs-content.png') no-repeat bottom right 135px;
     border-radius: 10px;
     padding-top: 40px;
     padding-left: 45px;
@@ -121,7 +121,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     border: none;
-    
+
 }
 
 /* FEATURES SECTION */
@@ -140,7 +140,7 @@ body {
     background-color: #f2f4ff;
     padding: 23px;
     border-radius: 10px;
-    
+
 }
 
 .card__text {
@@ -149,7 +149,7 @@ body {
 }
 
 .card__bottom {
-    background-image: url('/img/coins.png') ;
+    background-image: url('/img/coins.png');
     background-repeat: no-repeat;
     background-position: center right 80px;
     margin-bottom: 40px;
@@ -160,9 +160,10 @@ body {
     margin-right: 50px;
 }
 
-.section__card:last-child{
+.section__card:last-child {
     margin-right: 0px;
 }
+
 .card-wrap {
     display: flex;
     justify-content: space-between;
@@ -176,13 +177,43 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 32px;
+    margin-top: 9px;
 }
 
 .best__title {
     margin-bottom: 9px;
 }
 
+
 .best-card {
     width: 240px;
     height: 260px;
+    padding: 0;
+    position: relative;
+}
+
+.best-card__image {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.best-card__image_left {
+    left: 0;
+    transform: translateX(0);
+}
+
+.best-card__image_right {
+background-image: url(/img/jar_hand.png);
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+
+.best-card__text {
+    max-width: 204px;
+    margin: auto;
+    text-align: center;
+    margin-top: 19px;
 }
