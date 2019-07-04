@@ -2,11 +2,17 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #272727;
+    padding-top: 50px;
 }
 
 /* HEADER SECTION */
 
 .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
     background-color: #f4f4f4;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -94,6 +100,7 @@ body {
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 43px;
+    margin-bottom: 65px;
 }
 
 .tabs-content__title {
@@ -115,4 +122,98 @@ body {
     font-weight: 700;
     border: none;
 
+}
+
+/* FEATURES SECTION */
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section__title {
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #f2f4ff;
+    padding: 23px;
+    border-radius: 10px;
+
+}
+
+.card__text {
+    max-width: 484px;
+    font-size: 16px;
+}
+
+.card__bottom {
+    background-image: url('/img/coins.png');
+    background-repeat: no-repeat;
+    background-position: center right 80px;
+    margin-bottom: 40px;
+}
+
+.section__card {
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.section__card:last-child {
+    margin-right: 0px;
+}
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* BEST JAR IN WORLD */
+
+.section-subtitle {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    margin-top: 9px;
+}
+
+.best__title {
+    margin-bottom: 9px;
+}
+
+
+.best-card {
+    width: 240px;
+    height: 260px;
+    padding: 0;
+    position: relative;
+}
+
+.best-card__image {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.best-card__image_left {
+    left: 0;
+    transform: translateX(0);
+}
+
+.best-card__image_right {
+background-image: url(/img/jar_hand.png);
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+
+.best-card__text {
+    max-width: 204px;
+    margin: auto;
+    text-align: center;
+    margin-top: 19px;
 }
