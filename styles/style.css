@@ -88,7 +88,7 @@ body {
 
 /* TABS CONTENT */
 .tabs-content {
-    background: #f2f4ff url('/img/tabs-content.png') no-repeat bottom right 135px;     
+    background: #f2f4ff url('/img/tabs-content.png') no-repeat bottom right 135px;
     border-radius: 10px;
     padding-top: 40px;
     padding-left: 45px;
@@ -114,5 +114,5 @@ body {
     font-size: 16px;
     font-weight: 700;
     border: none;
-    
+
 }
