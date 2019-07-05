@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -216,4 +221,28 @@ background-repeat: no-repeat;
     margin: auto;
     text-align: center;
     margin-top: 19px;
+}
+
+/* FORM DELIVERY */
+
+.delivery {
+    padding-top: 60px;
+    padding-bottom: 100px;    
+}
+
+.input {
+    background-color: #f7f8ff;
+    border: none;
+    padding: 20px;
+    width: 100%;
+}
+
+.form__input {
+    margin-bottom: 30px;
+}
+
+.form {
+    border: 1px solid tomato;
+    max-width: 600px;
+    margin: auto;
 }
