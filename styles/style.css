@@ -1,5 +1,5 @@
 
-* {
+*, *::after, *::before {
     box-sizing: border-box;
 }
 
@@ -235,6 +235,7 @@ background-repeat: no-repeat;
     border: none;
     padding: 20px;
     width: 100%;
+    border-radius: 7px;
 }
 
 .form__input {
@@ -242,7 +243,20 @@ background-repeat: no-repeat;
 }
 
 .form {
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     max-width: 600px;
     margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-50 {
+    flex-basis: 49%;
 }
