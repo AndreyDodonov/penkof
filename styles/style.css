@@ -246,7 +246,6 @@ background-repeat: no-repeat;
 }
 
 .form {
-    /* border: 1px solid tomato; */
     max-width: 600px;
     margin: auto;
 }
@@ -271,5 +270,21 @@ background-repeat: no-repeat;
 .button-block {
     display: flex;
     justify-content: flex-end;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    min-width: 670px;
+    margin: auto;
 }
 
