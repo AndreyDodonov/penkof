@@ -236,6 +236,9 @@ background-repeat: no-repeat;
     padding: 20px;
     width: 100%;
     border-radius: 7px;
+    font-size: 16px;
+    color:#95989a;
+    font-weight: 400;
 }
 
 .form__input {
@@ -246,6 +249,10 @@ background-repeat: no-repeat;
     /* border: 1px solid tomato; */
     max-width: 600px;
     margin: auto;
+}
+
+.delivery__form {
+    margin-top: 60px;
 }
 
 .row {
@@ -260,3 +267,9 @@ background-repeat: no-repeat;
 .col-50 {
     flex-basis: 49%;
 }
+
+.button-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
