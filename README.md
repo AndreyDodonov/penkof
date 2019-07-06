@@ -6,4 +6,7 @@ Workshop [glo-academy](https://vk.com/glo_academy)
   - Git
   - avocode
 
+#### features:
+  - adaptive  
+
   Work with .xd
