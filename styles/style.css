@@ -288,3 +288,127 @@ body {
     min-width: 670px;
     margin: auto;
 }
+
+/* ADAPTIVE */
+
+/* BREAK POINTS */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        width: 90%;        
+    }
+
+    .best-card {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 760px;
+        width: 90%;
+    }
+
+    .tabs-content {
+        background-size: 200px;
+    }
+
+    .card__bottom {
+        background-size: contain;
+        background-position: center right 0;
+    }
+
+    .card__text {
+        max-width: 300px;
+    }
+
+    .card-wrap {
+        flex-wrap: wrap;
+    }
+
+    .card-block {
+        flex-basis: 45%;
+    }
+
+    .best__card-block {
+        margin-bottom: 30px;
+    }
+
+    .best-card {
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .tabs-content {
+        background-size: 180px;
+        background-position: bottom right 50px;
+    }
+
+    .card__bottom {
+        background-image: none;
+    }
+
+    .section__card {
+        margin-right: 0;
+        flex-basis: 100%
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .nav {
+        display: none; /* make cascade or burger menu */
+    }
+
+    .tabs-menu__item {
+        font-size: 12px;
+    }
+
+    .tabs-logo {
+        display: none;
+    }
+
+    .tabs-content__title {
+        font-size: 24px;
+    }
+
+    .tabs-content__text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .tabs-content {
+        background-image: none;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col-50 {
+        flex-basis: 100%
+    }
+
+    .form__input {
+        margin-bottom: 15px;
+    }
+    
+    .button-block {
+        justify-content: center;
+    }
+
+}
