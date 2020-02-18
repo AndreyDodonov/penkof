@@ -1,12 +1,13 @@
 ## Training site Penkoff
-Workshop [glo-academy](https://vk.com/glo_academy)
+
 #####  technology stack:
   - HTML
-  - CSS (SCSS)
+  - CSS
   - Git
   - avocode
 
 #### features:
-  - adaptive  
+  - adaptive 
+  - BEM 
 
   Work with .xd
